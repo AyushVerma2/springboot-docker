@@ -23,13 +23,14 @@
   // you can also push the image to you docker repo using you credential
   
   ### GRAALVM:(use grmach graalVM to see the sample
-  -polygot VM
-  Interoperability for different prog language
-  -Universal VM , using which you can run java/python/C/C++./Runy/R
-  -Also all JVM lang Scala,java,Cluje,kotlin
-  -Polygot app: wirte app in dif alng and they will run on same VM.
-  -Compile code in native img, and that will run on respective.
-  -build once and run in on any platoform..
-  -native img concept and it will run on respective machine..
+  ```
+  - polygot VM
+  - Interoperability for different prog language
+  - Universal VM , using which you can run java/python/C/C++./Runy/R
+  - Also all JVM lang Scala,java,Cluje,kotlin
+  - Polygot app: wirte app in dif alng and they will run on same VM.
+  - Compile code in native img, and that will run on respective.
+  - build once and run in on any platoform..
+  - native img concept and it will run on respective machine..
   -
-  
+  ```
