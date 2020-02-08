@@ -32,5 +32,5 @@
   - Compile code in native img, and that will run on respective.
   - build once and run in on any platoform..
   - native img concept and it will run on respective machine..
-  -
+  -docker run -it oracle/graalvm-ce:1.0.0-rc16 bash > it will installl graalvm and open bash shell, where you can cheeck java version, mnode version, lli for cand c++
   ```
