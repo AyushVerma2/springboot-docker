@@ -1,9 +1,9 @@
 # com.springboot.docker
 ### Springboot Docker example
 
-1. created a simple springboot application https://start.spring.io/ or normal maven project
- 2.Defautl REST controllr to test ,if it is deployed succesfully
-3.crete a Dcokerfile with below
+1. created a simple springboot application https://start.spring.io/ or normal maven project.
+2. Defautl REST controllr to test ,if it is deployed succesfully.
+3. crete a Dcokerfile with below.
  ```bash
   - from : it will downlaod images from dockerhub
   -ADD add the jara from targer to the image
