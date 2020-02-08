@@ -13,9 +13,11 @@
        #RUN addgroup -S spring && adduser -S spring -G spring
        #USER spring:spring
   #### To build the docker
+   ```bash
   docker build -f Dockerfile -t spring-docker . 
   // -f is the file name , -t is tag , spring-docket is the image name and . is cuurnet directory where the file is
   #### To Run:
   docker run -p 8080:8080 spring-docker
+   ```
   
   // you can also push the image to you docker repo using you credential
