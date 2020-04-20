@@ -14,7 +14,7 @@
        #USER spring:spring
   #### To build the docker
   
-  
+  ```xml
   ##### To build image:
   * docker build -f Dockerfile -t spring-docker . 
    // -f is the file name , -t is tag , spring-docket is the image name and . is cuurnet directory where the file is
