@@ -8,6 +8,6 @@ public class DemoController {
 
     @GetMapping
     public String getDemoData(){
-        return "this is demo project for springboot+ docker";
+        return "this is demo project for spring boot+ docker";
     }
 }
