@@ -27,6 +27,11 @@
   * docker run -p 9001:9001 spring-test1
   
    ```
+   #### Push image to docker:
+   * docker login -u piggy09
+   * docker build -f Dockerfile -t test-api . 
+   * docker tag test-api:latest piggy09/dockerhub:test-api
+   * docker push piggy09/dockerhub:test-api
   
   // you can also push the image to you docker repo using you credential
   
