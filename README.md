@@ -34,18 +34,19 @@
    * docker push piggy09/dockerhub:test-api
    
    ### running on mini kubelet:
-   * brew install minikube
-   * minikube start
-   * create a pod with this kubectl create -f pod.yml
+   * >brew install minikube
+   * >minikube start
+   * create a pod with this > kubectl create -f pod.yml
    - It takes some time to pull the image from the Docker Hub if you are doing the first time or depending on the image size.   // get the pod
-  * kubectl get po
+  * > kubectl get po
   // exec into running pod
-   * kubectl exec -it javaapi /bin/sh
+   * > kubectl exec -it javaapi /bin/sh
 
 #### Deployment 
+* 5 replicas in the specification and the deployment creates 5 pods and 1 replica set.
 * if multiple node : user deployement .yml
 
-  
+ Ref: https://medium.com/bb-tutorials-and-thoughts/how-to-run-java-rest-api-on-minikube-4b564ea982cc
   // you can also push the image to you docker repo using you credential
   
   ### GRAALVM:(use grmach graalVM to see the sample
