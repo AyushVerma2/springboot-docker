@@ -32,6 +32,19 @@
    * docker build -f Dockerfile -t test-api . 
    * docker tag test-api:latest piggy09/dockerhub:test-api
    * docker push piggy09/dockerhub:test-api
+   
+   ### running on mini kubelet:
+   * brew install minikube
+   * minikube start
+   * create a pod with this kubectl create -f pod.yml
+   - It takes some time to pull the image from the Docker Hub if you are doing the first time or depending on the image size.   // get the pod
+  * kubectl get po
+  // exec into running pod
+   * kubectl exec -it javaapi /bin/sh
+
+#### Deployment 
+* if multiple node : user deployement .yml
+
   
   // you can also push the image to you docker repo using you credential
   
