@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-version:
+      java: openjdk8
+  pre_build:
+    commands:
+      - Nothing to do here
+  build:
+    commands:
+      - echo mvn package
+      - mvn package
+  post_build:
+    commands:
+      - echo nothing to do here
+  artifacts:
+    files:
+      - target/spring-docker.jar
