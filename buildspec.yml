@@ -6,7 +6,7 @@ phases:
       java: openjdk8
   pre_build:
     commands:
-      - Nothing to do here
+      - echo Nothing to do here
   build:
     commands:
       - echo mvn package
